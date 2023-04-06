@@ -98,7 +98,7 @@ $(function () {
         doSticky();
         placedDashboard();
     });
-
+    
     function adjustHeader()
     {
         var windowWidth = $(window).width();
@@ -123,6 +123,7 @@ $(function () {
             $('.company-logo img').attr('src', '{% static "img/logos/black-logo.png" %}');
         }
     }
+
     function doSticky()
     {
         if ($(document).scrollTop() > 40) {
