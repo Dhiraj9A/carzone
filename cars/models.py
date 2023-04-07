@@ -5,13 +5,17 @@ from multiselectfield import MultiSelectField
 # Create your models here.
 class Car(models.Model):
     state_choice=(
-        ('AL', 'Alabama'),
-        ('AK', 'Alaska'),
-        ('AZ', 'Arizona'),
-        ('AR', 'Arkansas'),
-        ('CA', 'California'),
-        ('CO', 'Colorado'),
-        ('CT', 'Connecticut'),
+        ('India', 'Jharkhand'),
+        ('India', 'Bihar'),
+        ('India', 'UP'),
+        ('India', 'Delhi'),
+        ('India', 'Gujarat'),
+        ('India', 'Punjab'),
+        ('India', 'Hariyana'),
+        ('India', 'MP'),
+        ('India', 'chhattishghar'),
+        ('India', 'Keral'),
+        
         ('DE', 'Delaware'),
         ('DC', 'District Of Columbia'),
         ('FL', 'Florida'),
