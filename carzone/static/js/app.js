@@ -320,7 +320,7 @@ $(function () {
     $(document).ready(function () {
         $(".player").mb_YTPlayer(
             {
-                mobileFallbackImage: 'img/banner/banner-1.jpg'
+                mobileFallbackImage: '../static/img/banner/banner-1.jpg'
             }
         );
     });
@@ -479,3 +479,8 @@ $(function () {
         }
     }).trigger("resize");
 })(jQuery);
+
+setTimeout(function(){
+    $('#mesaage').fadeOut('slow');
+},4000)
+

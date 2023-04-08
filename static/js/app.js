@@ -320,7 +320,7 @@ $(function () {
     $(document).ready(function () {
         $(".player").mb_YTPlayer(
             {
-                mobileFallbackImage: 'img/banner/banner-1.jpg'
+                mobileFallbackImage: '{% static "img/banner/banner-1.jpg" %}'
             }
         );
     });

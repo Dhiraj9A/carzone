@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'accounts.apps.AccountsConfig',
     'cars.apps.CarsConfig',
     'pages.apps.PagesConfig',
     'django.contrib.admin',
@@ -133,3 +134,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # media settings
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 MEDIA_URL='/media/'
+
+
+# messages
+
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+}
